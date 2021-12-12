@@ -1,6 +1,6 @@
 {
 	"Actor": {
-		"types": ["mutant", "animal", "robot", "human", "npc", "ark"],
+		"types": ["mutant", "animal", "robot", "human", "hindenburg", "npc", "ark"],
 		"templates": {
 			"base": {
 				"role": "",
@@ -135,6 +135,16 @@
 			"coreSkills": ["ENDURE", "FORCE", "FIGHT", "SNEAK", "MOVE", "SHOOT", "SCOUT", "COMPREHEND", "KNOWTHEZONE", "SENSEEMOTION", "MANIPULATE", "HEAL"],
 			"resource_points": {
 				"label": "MYZ.INFLUENCE_POINTS",
+				"value": 0,
+				"max": 10
+			}
+		},
+		"hindenburg": {
+			"templates": ["base", "stats", "status"],
+			"description": "<table style=\"width: 100%; height: 90px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 17px;\">\n<th style=\"width: 395px; height: 17px; text-align: left; vertical-align: middle; background-color: #12807c;\"><span style=\"background-color: #12807c; color: #ecf0f1;\">RELATIONSHIPS</span></th>\n<th style=\"width: 136px; height: 17px; text-align: left; vertical-align: middle; background-color: #12807c;\"><span style=\"background-color: #12807c; color: #ecf0f1;\">BUDDY</span></th>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 395px; height: 17px;\">PC</td>\n<td style=\"width: 136px; height: 17px; background-color: #2dc26b;\"><span style=\"color: #000000;\">-</span></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 395px; height: 17px;\">PC</td>\n<td style=\"width: 136px; height: 17px;\">-</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 395px; height: 17px;\">PC</td>\n<td style=\"width: 136px; height: 17px;\">-</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 395px; height: 22px;\">PC</td>\n<td style=\"width: 136px; height: 22px;\">-</td>\n</tr>\n</tbody>\n</table>\n<table style=\"height: 51px; width: 100%;\" border=\"1\">\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"width: 534px; height: 17px; background-color: #ecf0f1;\"><strong>I Hate:</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 534px; height: 17px; background-color: #ecf0f1;\"><strong>I Need to Protect:</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 534px; height: 17px; background-color: #ecf0f1;\"><strong>My Big Dream:</strong></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+			"coreSkills": ["DRUDGE_AND_DRAG", "FIGHT", "WITHSTAND", "JUMP_AND_CLIMB", "SHOOT", "SNEAK", "UNDERSTAND", "JURYRIG", "SCOUT", "SENSEEMOTION", "MANIPULATE", "HEAL"],
+			"resource_points": {
+				"label": "MYZ.MUTATION_POINTS",
 				"value": 0,
 				"max": 10
 			}

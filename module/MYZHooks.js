@@ -57,6 +57,13 @@ export default class MYZHooks {
                     console.log(errMsgOfficialSkills);
                 }
             }
+            if (actor.data.data.creatureType == 'Hindenburg') {
+                try {
+                    skillIndex = await game.packs.get("myz-core-book.myzcb-items").getDocuments();
+                } catch (e) {
+                    console.log(errMsgOfficialSkills);
+                }
+            }
 
             // Filter skillIndex array to include only skills for Actor Type.
             let _skillsList = skillIndex.filter((i) => skillsToAdd.includes(i.data.data.skillKey));

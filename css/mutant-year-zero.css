@@ -848,6 +848,10 @@ $font-secondary: 'Roboto', sans-serif;*/
   background-image: url("../ui/box-header-tile.png");
 }
 
+.mutant-year-zero .box-item.header.hindenburg {
+  background-image: url("../ui/box-header-brown.png");
+}
+
 .mutant-year-zero .box-item.chassis .chassis-name {
   padding-left: 0.5em;
 }
@@ -967,6 +971,10 @@ $font-secondary: 'Roboto', sans-serif;*/
 
 .mutant-year-zero .box-list.human {
   background-color: #e1ede9;
+}
+
+.mutant-year-zero .box-list.hindenburg {
+  background-color: #f0d5b7;
 }
 
 .mutant-year-zero .box-list.fixed-height {
